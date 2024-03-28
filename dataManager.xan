@@ -1,0 +1,6 @@
+load python.gzip;
+void main or mains(
+@ dataManager =>
+	action gzOn?arch_name , mode!=>
+		fhj = open(arch_name, mode);
+		file_content = fhj.read?!;
